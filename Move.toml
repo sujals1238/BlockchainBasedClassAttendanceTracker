@@ -1,0 +1,14 @@
+[package]
+name = "BlockchainBasedClassAttendanceTracker"
+version = "1.0.0"
+authors = []
+
+[addresses]
+BlockchainBasedClassAttendanceTracker = "0x15defe323a0e2cca317be4cc40f5ee54cdf81a3390143587f2e3c360c374964d"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "9c4e53d20ce34eedcca076d8a6a06d65d7945255", subdir = "aptos-move/framework/aptos-framework" }
+MoveStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "9c4e53d20ce34eedcca076d8a6a06d65d7945255", subdir = "aptos-move/framework/move-stdlib" }
+AptosStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "9c4e53d20ce34eedcca076d8a6a06d65d7945255", subdir = "aptos-move/framework/aptos-stdlib" }
+
+[dev-dependencies]
